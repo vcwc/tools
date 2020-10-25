@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+
+
+executionplane --silent docker container prune --force
+
