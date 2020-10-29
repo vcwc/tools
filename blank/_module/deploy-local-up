@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+prefix="vcwc_tools_blank__$1"
+prefix="vcwc_tools_blank__$1"
+
+if [[ "vcwc_tools_blank__blank_blank_volume" == "$prefix"* ]] ; then
+	executionplane --silent docker volume create vcwc_tools_blank__blank_blank_volume
+fi
+
+if [[ "vcwc_tools_blank__blank_blank_volume" == "$prefix"* ]] ; then
+	executionplane --silent docker run -v vcw_controlplane_repos:/vcw/pwd -v vcwc_tools_blank__blank_blank_volume:/etc/blank ${VCW_REGISTRY}vcwc/controlplane.vcw console cmd cp -r /vcw/pwd/vcwc/tools/blank/_module/volumes/blank_blank_volume/* /etc/blank
+fi
