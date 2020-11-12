@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+ 
+#!/usr/bin/env bash
+
+# START CONFIGURATION
+DOLLAR='$'
+export VCW_MODULE_PACKAGES="\
+blank:vcwc/tools/blank"
+# END CONFIGURATION
+
+# START OTHER SETTINGS
+export BLANK_MODULE_SOME_SETTING=
+# END OTHER SETTINGS
+

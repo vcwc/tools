@@ -1,8 +1,0 @@
-#!/usr/bin/env bash
-
-
-prefix="module_module_blank_$2"
-
-
-executionplane --silent docker container prune --force
-
